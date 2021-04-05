@@ -1,0 +1,468 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Navbar Styling */
+
+.nav_backimg{
+    position: relative;
+    background-image: url(https://images.pexels.com/photos/3184611/pexels-photo-3184611.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 750px;
+}
+
+.navbar{
+    top: 17px;
+    position: fixed;
+    z-index: 1;
+    
+}
+
+.nav_logo{
+    margin-left: 65px;
+    margin-right: 812px;
+    font-family: 'Architects Daughter', cursive;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.nav_logo a{
+    text-decoration: none;
+}
+
+.nav_list{
+    
+    font-weight: bold;
+}
+
+.nav_list a{
+    text-decoration: none;
+    color: black;
+    font-size:18px;
+}
+
+.nav_list a:hover{
+    text-decoration: none;
+    color:rgba(255, 99, 71, 0.8);
+    font-family: 'Architects Daughter', cursive;
+    animation: textcolor 3s ease infinite alternate;
+}
+
+@keyframes textcolor{
+    0%{
+        color:rgba(255, 99, 71, 0.8);
+    }
+    50%{
+        color:blue;
+    }
+    75%{
+        color:green;
+    }
+}
+
+
+.nav_logo_color{
+    color: red;
+}
+
+.nav_list a{
+    margin-left: 30px;
+}
+
+.nav_list a:nth-child(4){
+    margin-right: 100px;
+}
+
+.redcolor{
+    background-color: rgb(233, 198, 198);
+    top:0;
+}
+
+/* navbar end */
+
+/* name over img start*/
+
+.pic_name{
+    position: relative;
+    top: 200px;
+    margin-left: 100px;
+}
+
+.main_name{
+    font-size: 4rem;
+    font-weight: 700;
+    margin-top: -10px;   
+}
+
+.typing{
+    color: rgb(179, 38, 45);
+    font-weight: bold;
+}
+
+.button .btn:hover{
+    background-color: transparent;
+    color: black;
+    border-radius: 50%;
+    border: 1px solid black; 
+    font-size: 20px;
+}
+
+/* name over img end */
+
+
+
+/* About section starts */
+
+.section_heading{
+    text-align: center;
+    margin-top: 9%;
+    margin-bottom: 5%;
+}
+
+.section_heading h2{
+    margin-bottom:-2px;
+}
+
+.section_span{
+    position: relative;
+    font-family: 'Courgette', cursive;;
+}
+
+.section_span::before{
+    content: "";
+    display: block;
+    width: 30px;
+    height: 5px;
+    position:absolute;
+    background: #191970;
+    top: 50%;
+    left: -55%;
+    border-radius: 5px;
+}
+
+.section_span::after{
+    content: "";
+    display: block;
+    width: 30px;
+    height: 5px;
+    position:absolute;
+    background: #191970;
+    top: 50%;
+    right: -55%;
+    border-radius: 5px;
+}
+
+.about_content{
+    margin-bottom: 100px;
+}
+
+
+.at_img{
+    box-shadow: 2px 2px 2px black;
+    border-radius: 10px;
+}
+
+.card{
+    border-radius: 10px;
+}
+
+.ab_para{
+    margin-left: 100px;
+}
+
+.btn{
+    padding: 10px 25px;
+    transition: 0.3s ease-in;
+}
+
+.btn:hover{
+    background-color: transparent;
+    color: red;
+    border: 2px solid red;
+}
+
+/* about section end   */
+
+
+/* skills section start */
+
+.sk_para h5{
+    font-weight: bold;
+}
+
+ 
+/* for progress bar start */
+
+
+.probar h3{
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+
+.bar{
+    margin-top:5px ;
+    display: block;
+    background: silver;
+    height: 4px;
+    width: 100%;
+    border-radius: 3px;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.bar span{
+    height:4px;
+    float: left;
+    background: red;
+}
+
+.html{
+    color: red;
+    width: 80%;
+    animation: html 2s;
+}
+.css{
+    color: red;
+    width: 60%;
+    animation: css 1s;
+}
+.JavaScript{
+    color: red;
+    width: 70%;
+    animation: javascript 1.5s;
+}
+.nodejs{
+    color: red;
+    width: 50%;
+    animation: nodejs 3s;
+}
+.Reactjs{
+    color: red;
+    width: 40%;
+    animation: reactjs 2.3s;
+}
+
+@keyframes html{
+    0%{
+        width: 0;
+    }
+
+    100%{
+        width: 80%;
+    }
+}
+
+@keyframes css{
+    0%{
+        width: 0;
+    }
+
+    100%{
+        width: 60%;
+    }
+}
+@keyframes javascript{
+    0%{
+        width: 0;
+    }
+
+    100%{
+        width: 70%;
+    }
+}
+@keyframes nodejs{
+    0%{
+        width: 0;
+    }
+
+    100%{
+        width: 50%;
+    }
+}
+@keyframes reactjs{
+    0%{
+        width: 0;
+    }
+
+    100%{
+        width: 40%;
+    }
+}
+
+/* for progress bar end */
+
+/* contact start */
+
+.fabicon{
+    margin-bottom: 10px;
+}
+
+/* contact end */
+
+/* footer start */
+
+.footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 15px 0;
+}
+
+/* footer end */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    /* about start */
+    .card_img{
+        display: inline-flex;
+        left: -25%;
+    }
+
+    .ab_para{
+        margin-top: 50px;
+        margin-left: -25px;
+    }
+
+    .ab_para h3{
+        font-size: 1px;
+    }
+    /* about end */
+
+    /* Skills start */
+
+    .heading{
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .probar{
+        margin-top: 100px;
+    }
+    /* Skills end */
+
+    /* contact start */
+
+    .cont_para{ 
+    margin-top: 50px;  
+    text-align: center;
+    }
+
+    .fabicon{
+        text-align: center;
+    }
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+    .card{
+        margin-top: 30px;
+        display: block;
+        margin-left: 105px;
+        
+    }
+
+    .ab_para{
+        margin-top: 50px;
+        margin-left: -25px;
+    }
+    .ab_para h3{
+        font-size: 1px;
+    }
+    /* about end */
+
+    /* Skills start */
+    .heading{
+        margin-top: 20px; 
+        text-align: center;
+    }
+
+    .probar{
+        margin-top: 100px;
+    }
+    /* Skills end */
+
+    /* contact start */
+
+    .cont_para{ 
+    margin-top: 50px;  
+    text-align: center;
+    }
+
+    .fabicon{
+        text-align: center;
+    }
+
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 992px) {
+    .card{
+        margin-top: 30px;
+        display: block;
+        margin-left: 31%;
+        
+    }
+
+    .ab_para{
+        margin-top: 50px;
+        margin-left: -25px;
+    }
+    .ab_para h3{
+        font-size: 1px;
+    }
+    /* about end */
+
+    /* Skills start */
+    .heading{
+        margin-top: 20px; 
+        text-align: center;
+    }
+
+    .probar{
+        margin-top: 100px;
+    }
+    /* Skills end */
+
+    /* contact start */
+
+    .cont_para{ 
+    margin-top: 50px;  
+    text-align: center;
+    }
+
+    .fabicon{
+        text-align: center;
+    }
+}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .ab_para{
+        margin-left: 80px;
+    }
+
+    .cont_para h5{
+        margin-top: -50px;
+        text-align: left;
+    }
+    .cont_para{
+
+        text-align: left;
+    }
+}
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
