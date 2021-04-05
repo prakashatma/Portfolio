@@ -466,4 +466,25 @@ body{
 }
 
 
-/* Extra large devices (large laptops and desktops, 1200px and up) */
+
+
+/* for scroll bar start*/
+
+::-webkit-scrollbar{
+    width:  6px;
+}
+
+::-webkit-scrollbar-thumb{
+    background:rgb(255, 120, 120);
+    border-radius: 5px;
+}
+
+
+::-webkit-scrollbar-thumb:hover{
+    background: linear-gradient(transparent , red , green ,orange);
+    border-radius: 5px;
+
+}
+
+
+/* for scroll bar end*/
