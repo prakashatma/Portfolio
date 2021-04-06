@@ -33,6 +33,7 @@
                 <a href="/index.html">Home</a>
                 <a href="#About">About</a>
                 <a href="#Skills">Skills</a>
+                <a href="#Projects">Projects</a>
                 <a href="#Contact">Contact</a>
             </div>
         </nav>
@@ -75,7 +76,7 @@
                                 about it on inter that put me in very tough situation this is like bad dream pls make me
                                 out from this situation ..no one
                             </p>
-                            <button class="btn btn-danger">Download CV</button>
+                            <button class="btn btn-danger download"><a href="files/Atma_Prakash_resume.pdf">Download CV</a></button>
                         </div>
                     </div>
                 </div>
@@ -90,7 +91,7 @@
 
     <section id="Skills">
         <div class="section_heading">
-            <h2 style="font-family: 'New Tegomin', serif;">My skills</h2>
+            <h2 style="font-family: 'New Tegomin', serif;">My Skills</h2>
             <span class="section_span">what i know</span>
         </div>
 
@@ -127,12 +128,23 @@
 
     <!-- skills end -->
 
+    <!-- project start -->
+
+
+
+
+
+
+
+
+    <!-- project end -->
+
     <!-- contact start -->
 
     <section id="Contact">
         <div class="section_heading">
             <h2 style="font-family: 'New Tegomin', serif;">Contact me</h2>
-            <span class=" contact_span">get in touch</span>
+            <span class="section_span contact_span">get in touch</span>
         </div>
 
         <div class="about_content">
@@ -169,6 +181,15 @@
                                     <p>8922894378ap@gmail.com</p>
                                 </div>
                             </div>
+                            <div class="row fabicon">
+                                <div class="col-lg-2">
+                                    <i class="fa fa-mobile" style="font-size:30px;color:rgb(189, 19, 19);"></i>
+                                </div>
+                                <div class="col-lg-4 mobile">
+                                    <h6 style="font-weight: bold;">Mobile</h6>
+                                    <a href="tel:786-036-1432"><p>786361432</p></a>
+                                </div>
+                            </div>
 
                         </div>
                     </div>
@@ -177,34 +198,42 @@
                             <h5 style="font-weight: bold;">Message me</h5>
                         </div>
                         
-                        <form action="">
+                        <form action="https://formspree.io/f/mvodoran" method="POST">
                             <div class="container">
                                 <div class="row">
                                     <div class="col-lg-6">
                                         <div class="form-group">
-                                            <input type="text" class="form-control" placeholder="Name">
+                                            <input type="text" class="form-control" name="name" id="name" placeholder="Name">
                                         </div>
                                     </div>
                                     <div class="col-lg-6">
                                         <div class="form-group">
-                                            <input type="email" class="form-control" placeholder="Email">
+                                            <input type="email" class="form-control" name="email" id="email" placeholder="Email">
                                         </div>
                                     </div>
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" class="form-control" placeholder="subject">
+                                    <input type="text" class="form-control" name="subject" id="subject" placeholder="subject">
                                 </div>
                                 <div class="form-group">
-                                    <textarea class="form-control" name="" id="" cols="10" rows="3"
-                                        placeholder="message..."></textarea>
+                                    <textarea class="form-control" cols="10" rows="3" 
+                                    name="message" id="message" placeholder="message..."></textarea>
                                 </div>
-                                <button class="btn btn-danger">Sent message</button>
+                                <button type="submit" class="btn btn-danger">Sent message</button>
                         </form>
                     </div>
                 </div>
             </div>
         </div>
+        <div class="more_contact">
+            <a href="" class="facebook"><i class="fa fa-facebook-square "></i></a>
+            <a href="" class="instagram"><i class="fa fa-instagram "></i></a>
+            <a href="" class="whatsapp"><i class="fa fa-whatsapp "></i></a>
+            <a href="" class="telegram"><i class="fa fa-telegram "></i></a>
+
+        </div>
     </section>
+    
 
     <!-- contact end -->
 

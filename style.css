@@ -31,7 +31,7 @@ body{
 
 .nav_logo{
     margin-left: 65px;
-    margin-right: 812px;
+    margin-right: 10%;
     font-family: 'Architects Daughter', cursive;
     font-family: 'Permanent Marker', cursive;
 }
@@ -79,8 +79,8 @@ body{
     margin-left: 30px;
 }
 
-.nav_list a:nth-child(4){
-    margin-right: 100px;
+.nav_list a:nth-child(5){
+    margin-right: 50px;
 }
 
 .redcolor{
@@ -183,6 +183,16 @@ body{
 .btn{
     padding: 10px 25px;
     transition: 0.3s ease-in;
+}
+
+.download a{
+    text-decoration: none;
+    color: white;
+}
+
+.download a:hover{
+    background-color: transparent;
+    color: red;
 }
 
 .btn:hover{
@@ -306,6 +316,47 @@ body{
 .fabicon{
     margin-bottom: 10px;
 }
+
+.more_contact{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 50px;
+    margin-bottom: -70px;
+}
+
+.mobile a{
+    text-decoration: none;
+    color: black;
+}
+
+.more_contact a{
+    margin-left: 10px;
+}
+
+.more_contact i{
+    color: black;
+}
+
+.more_contact i:hover{
+    font-size: 42px;
+}
+
+.facebook i:hover{
+    color: rgb(74, 135, 250);
+}
+
+.instagram i:hover{
+    color: rgb(233, 86, 86);
+}
+
+.whatsapp i:hover{
+    color: rgb(23, 90, 2);
+}
+.telegram i:hover{
+    color: rgb(25, 46, 236);
+}
+
+
 
 /* contact end */
 
@@ -481,7 +532,7 @@ body{
 
 
 ::-webkit-scrollbar-thumb:hover{
-    background: linear-gradient(transparent , red , green ,orange);
+    background: rgb(231, 44, 44);
     border-radius: 5px;
 
 }
