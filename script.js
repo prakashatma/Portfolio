@@ -1,3 +1,14 @@
+// Preloader
+
+var preloader = document.getElementById("Preloader");
+
+function onLoadFunc(){
+    preloader.style.display ="none";
+
+}
+
+
+
 // navbar change color
 
 x = document.querySelector("nav");
